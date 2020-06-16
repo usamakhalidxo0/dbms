@@ -1,0 +1,20 @@
+Tours:
+
+Get tours: db.tours.findMany(filter object, projection object);
+Create tour: db.tours.insertOne(object);
+Update tour: db.tours.updateOnd(filter object, new object);
+delete tour: db.tours.deleteOne(filter object);
+
+Users:
+
+Get users: db.users.findMany(filter object, projection object);
+Create user: db.users.insertOne(object);
+Update user: db.users.updateOnd(filter object, new object);
+delete user: db.users.deleteOne(filter object);
+
+Users:
+
+Get reviews: db.reviews.findMany(filter object, projection object);
+Create review: db.reviews.insertOne(object);
+Update review: db.reviews.updateOnd(filter object, new object);
+delete review: db.reviews.deleteOne(filter object);
